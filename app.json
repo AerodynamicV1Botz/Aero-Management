@@ -1,5 +1,5 @@
 {
-    "name": "YoneRobot",
+    "name": "Aero-Management",
     "description": "Telegram group management bot.",
     "keywords": [
        "telegram",
@@ -8,7 +8,7 @@
        "manager",
        "yone"
     ],   
- "repository": "https://github.com/noob-kittu/YoneRobot",
+ "repository": "https://github.com/AerodynamicV1Botz/Aero-Management",
  "addons": [
     {
        "options": {
@@ -49,7 +49,7 @@
     "OWNER_ID": {
        "description": "Your user ID as an integer.",
        "required": true,
-       "value": "1697409878"
+       "value": "1484735126"
     },
 
     "BOT_NAME": {
@@ -59,32 +59,32 @@
     },
     "OWNER_USERNAME": {
        "description": "Your username without the @",
-       "value": "kumjojass"
+       "value": "AerodynamicV1_OFFICIAL"
     },
     "SUPPORT_CHAT": {
        "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to masha support than consider you made an enemy.",
        "required": true,
-       "value": "league_of_bots"
+       "value": "AerodynamicV1_Promotion"
     },      
     "PHOTO": {
        "description": "Your Telegram Bot Image (Add Link Only).",
        "required": true,
-       "value": "https://telegra.ph/file/b749b0e80e82291e85e10.jpg"
+       "value": "https://telegra.ph//file/65278a98613aee490905b.jpg"
     },      
     "DEV_USERS": {
        "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Masha support then keep the current ID's here at they are and add yours.",
        "required": false,
-       "value": ""
+       "value": "1484735126"
     },
     "INSPECTOR": {
        "description": "A space separated list of user IDs who you want to assign as inspector users.",
        "required": false,
-       "value": ""
+       "value": "1484735126"
     },
     "REQUESTER": {
        "description": "A space separated list of user IDs who you wanna assign as requester(gban perms only).",
        "required": false,
-       "value": ""
+       "value": "1484735126"
     },
     "ENV": {
        "description": "Setting this to ANYTHING will enable environment variables. Leave it as it is",
